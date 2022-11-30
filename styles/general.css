@@ -1,0 +1,31 @@
+*, *::after, *::before {
+    font-family: Arial;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    background-color: #f6fff9;
+}
+
+.title-container {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.underline {
+    background-color: #35ab49;
+    width: 50%;
+    height: 7px;
+    margin-left: 12%;
+}

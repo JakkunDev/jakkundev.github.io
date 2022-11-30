@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(225, 245, 236);
+    display: flex;
+    padding: 5px 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.copyright {
+    color: black;
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+.socials-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social > img {
+    width: 24px;
+    height: 24px;
+}
