@@ -31,10 +31,52 @@
     display: flex;
 }
 
-.items > li {
+.item-container {
     margin-left: 10px;
 }
 
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 5px;
+    }
+
+    .items {
+        margin: auto;
+        margin-top: 10px;
+        background-color: rgb(213, 236, 225);
+        border-top: 1px solid rgb(192, 234, 216);
+        width: 100%;
+        padding: 3px 0;
+        justify-content: space-between;
+        align-content: center;
+        padding-left: 0;
+    }
+
+    .item-container:last-child {
+        margin-right: 30px;
+    }
+    
+    .item-container:first-child {
+        margin-left: 30px;
+    }
+
+    .item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 501px) {
+    .item {
+        display: block;
+    }
+}
 
 .item {
     text-decoration: none;
