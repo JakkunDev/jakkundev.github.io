@@ -13,12 +13,15 @@
 .copyright {
     color: black;
     font-weight: 700;
-    margin-right: 100px;
+    margin-right: 20px;
+    font-size: 0.75rem;
 }
 
 .socials-container {
     display: flex;
-    margin-left: 100px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .social {
@@ -30,4 +33,20 @@
 .social > img {
     width: 24px;
     height: 24px;
+}
+
+@media (max-width: 500px) {
+    .social {
+        width: 16px;
+        height: 16px;
+    }
+
+    .copyright {
+        font-size: 0.75rem;
+        margin-left: auto;
+    }
+
+    .social {
+        margin: 5px 8px;
+    }
 }
