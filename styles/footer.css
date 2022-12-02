@@ -37,16 +37,17 @@
 
 @media (max-width: 500px) {
     .social {
-        width: 16px;
-        height: 16px;
+        margin: 5px 8px;
+    }
+
+    .social > img,
+    .social {
+        width: 20px;
+        height: 20px;
     }
 
     .copyright {
         font-size: 0.75rem;
         margin-left: auto;
-    }
-
-    .social {
-        margin: 5px 8px;
     }
 }
